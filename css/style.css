@@ -54,6 +54,7 @@ SombraCruceta: #121415;
     width: 98vmin;
     height: 45vmin;
     background: #dbc9ac;
+    background: linear-gradient(179deg, rgba(218,200,172,1) 0%, rgba(203,186,149,1) 20%, rgba(233,219,191,0.9275911048012955) 100%, rgba(223,210,174,1) 100%);
     border-radius: 1vmin;
     /* box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5); */
     box-shadow: 0px 0px 3px  #000, 0px 0px 3px  rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
@@ -72,3 +73,62 @@ SombraCruceta: #121415;
     background-image: url(/img/logo.png);
     background-repeat: no-repeat;
 }
+
+/* Creamos la parte de la pantalla
+Añadimos una imagen estática del juego
+*/
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 49vmin;
+    height: 40vmin;
+    background: #e2d0b4;
+    border-radius: 1vmin ;
+    box-shadow: 0px 0px 8px 8px #ecd0ac, 0px 0px 8px 10px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.2), inset 0px 0px 3px rgba(255,255,255,.4);
+}
+
+.screenInside {
+    position: absolute;
+    width: 47vmin;
+    height: 32vmin;
+    border-radius: 2vmin;
+    background-color: #9b141f;
+    /* box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0px 0px 2px 4px #96041d, 0px 0px 2px 4px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.2), inset 0px 0px 3px rgba(255,255,255,.4);
+}
+
+.imagen {
+    position: absolute;
+    width: 44vmin;
+    height: 30vmin;
+    background-image: url(/img/screenpng.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 50vmin;
+    height: 38vmin;
+    background-color: transparent;
+    text-align: center;
+    top: 1vmin;
+}
+
+.nintendo {
+    position: absolute;
+    width: 12vmin;
+    height: 30vmin;
+    background-color: transparent;
+    text-align: center;
+    top: 32vmin;
+    background-size: 100%;
+    background-image: url(/img/nintendo-logo.png);
+    background-repeat: no-repeat;
+}
+
