@@ -11,3 +11,21 @@ BotonesStart/Select: #abaaa8;
 Cruceta: #212325;
 SombraCruceta: #121415;
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Creamos una capa de fondo "invisible" width= 100% y height= 100vh ocupa toda la pantalla */
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fcf1f1;
+    width: 100%;
+    height: 100vh;
+}
