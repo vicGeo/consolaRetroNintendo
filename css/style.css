@@ -104,7 +104,7 @@ Añadimos una imagen estática del juego
     position: absolute;
     width: 44vmin;
     height: 30vmin;
-    background-image: url(/img/screenpng.png);
+    background-image: url(/screenpng.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
