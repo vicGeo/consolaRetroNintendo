@@ -132,3 +132,55 @@ Añadimos una imagen estática del juego
     background-repeat: no-repeat;
 }
 
+/* Botones A y B */
+
+.buttons2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vmin;
+    height: 10vmin;
+    right: 1vmin;
+    top: 30vmin;
+}
+
+.buttonB {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: #cd3141;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 4px #910318, 0px 0px 2px 4px rgba(0,0,0,.7), inset 0px 1px 0px rgba(255,255,255,.2), inset 0px 0px 3px rgba(255,255,255,.4);
+    border: solid 1px;
+    left: 1vmin;
+}
+
+.buttonA {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: #cd3141;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 4px #910318, 0px 0px 2px 4px rgba(0,0,0,.7), inset 0px 1px 0px rgba(255,255,255,.2), inset 0px 0px 3px rgba(255,255,255,.4);
+    border: solid 1px;
+    right: 1vmin;
+}
+
+.letraB {
+    position: absolute;
+    width: 2vmin;
+    height: 2vmin;
+    top: 9vmin;
+    left: 2.5vmin;
+    font-weight: bold;
+}
+
+.letraA {
+    position: absolute;
+    width: 2vmin;
+    height: 2vmin;
+    top: 9vmin;
+    right: 2vmin;
+    font-weight: bold;
+}
