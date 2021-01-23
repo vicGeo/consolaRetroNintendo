@@ -267,20 +267,3 @@ Añadimos una imagen estática del juego
 }
 
 /* Cruceta: No me quedaba muy bien con CSS y he metido un SVG 😪 */
-
-.cross-pad {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15vmin;
-    height: 15vmin;
-    left: 4vmin;
-    top: 26vmin;
-    background-image: url(/img/ButtonIcon-N64-D-Pad.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-filter: drop-shadow(1px 5px 2px  #9b141f);
-    filter: drop-shadow(1px 5px 2px  #9b141f);
-}
-
