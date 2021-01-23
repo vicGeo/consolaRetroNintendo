@@ -70,7 +70,7 @@ SombraCruceta: #121415;
     left: 6vmin;
     top: 6vmin;
     background-size: 100%;
-    background-image: url(/img/logo.png);
+    background-image: url("../img/logo.png");
     background-repeat: no-repeat;
 }
 
@@ -104,7 +104,7 @@ Añadimos una imagen estática del juego
     position: absolute;
     width: 44vmin;
     height: 30vmin;
-    background-image: url(../screenpng.png);
+    background-image: url("../img/screenpng.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -128,7 +128,7 @@ Añadimos una imagen estática del juego
     text-align: center;
     top: 32vmin;
     background-size: 100%;
-    background-image: url(/img/nintendo-logo.png);
+    background-image: url("../img/nintendo-logo.png");
     background-repeat: no-repeat;
 }
 
@@ -277,7 +277,7 @@ Añadimos una imagen estática del juego
     height: 15vmin;
     left: 4vmin;
     top: 26vmin;
-    background-image: url(/img/ButtonIcon-N64-D-Pad.svg);
+    background-image: url("../img/ButtonIcon-N64-D-Pad.svg");
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-filter: drop-shadow(1px 5px 2px  #9b141f);
