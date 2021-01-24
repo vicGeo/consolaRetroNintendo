@@ -114,10 +114,10 @@ Añadimos una imagen estática del juego
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     width: 50vmin;
-    height: 38vmin;
+    height: 2vmin;
     background-color: transparent;
     text-align: center;
-    top: 1vmin;
+    top: -.2vmin;
 }
 
 .nintendo {
@@ -193,7 +193,7 @@ Añadimos una imagen estática del juego
     justify-content: center;
     align-items: center;
     width: 20vmin;
-    height: 20vmin;
+    height: 18vmin;
     right: 1vmin;
     top: 2vmin;
 }
@@ -206,7 +206,7 @@ Añadimos una imagen estática del juego
     border-radius: 100px / 60px;
     box-shadow: 0px 0px 2px 4px #910318, 1px 1px 5px 4px rgba(0,0,0,.3), inset 10px 3px 5px rgba(0,0,0,.3), inset 5px 3px 5px rgba(232, 232, 232, 1);
     border: solid 1px;
-    top: 1vmin;
+    top: -.2vmin;
     left: 1vmin;
 
 }
@@ -215,11 +215,10 @@ Añadimos una imagen estática del juego
     position: absolute;
     width: 2vmin;
     height: 2vmin;
-    top: 4vmin;
+    top: 3vmin;
     left: 1.4vmin;
     font-weight: bold;
-    font-size: x-small;
-
+    font-size: xx-small;
 }
 
 .time {
@@ -238,10 +237,10 @@ Añadimos una imagen estática del juego
     position: absolute;
     width: 2vmin;
     height: 2vmin;
-    top: 9vmin;
+    top: 9.5vmin;
     left: 1.4vmin;
     font-weight: bold;
-    font-size: x-small;
+    font-size: xx-small;
 }
 
 .pause {
@@ -252,7 +251,7 @@ Añadimos una imagen estática del juego
     border-radius: 100px / 60px;
     box-shadow: 0px 0px 2px 4px #910318, 1px 1px 5px 4px rgba(0,0,0,.3), inset 10px 3px 5px rgba(0,0,0,.3), inset 5px 3px 5px rgba(232, 232, 232, 1);
     border: solid 1px;
-    top: 11vmin;
+    top: 13vmin;
     left: 1vmin;
 }
 
@@ -260,10 +259,10 @@ Añadimos una imagen estática del juego
     position: absolute;
     width: 2vmin;
     height: 2vmin;
-    top: 14vmin;
+    top: 16.5vmin;
     left: 0.5vmin;
     font-weight: bold;
-    font-size: x-small;
+    font-size: xx-small;
 }
 
 /* Cruceta: No me quedaba muy bien con CSS y he metido un SVG 😪 */
