@@ -117,7 +117,7 @@ Añadimos una imagen estática del juego
     height: 2vmin;
     background-color: transparent;
     text-align: center;
-    top: -.2vmin;
+    top: -0.1vmin;
 }
 
 .nintendo {
@@ -259,7 +259,7 @@ Añadimos una imagen estática del juego
     position: absolute;
     width: 2vmin;
     height: 2vmin;
-    top: 16.5vmin;
+    top: 16vmin;
     left: 0.5vmin;
     font-weight: bold;
     font-size: xx-small;
